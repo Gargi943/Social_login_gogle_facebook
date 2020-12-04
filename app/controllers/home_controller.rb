@@ -5,9 +5,6 @@ class HomeController < ApplicationController
   def index
   end
 
-  def merge_example
-  end
-  
   def omniauth
     # debugger
     @user = User.from_omniauth(auth)
